@@ -5,7 +5,11 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'tsserver',
 	'rust_analyzer',
-    'lua_ls',
+  'lua_ls',
+  'html',
+  'cssls',
+  'eslint',
+  'emmet_ls',
 })
 
 lsp.configure('lua-language-server', {
