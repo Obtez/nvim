@@ -44,9 +44,11 @@ return require('packer').startup(function(use)
         end
     }
     use("simrat39/symbols-outline.nvim")
-    use("nvim-treesitter/nvim-treesitter-context");
+    use("nvim-treesitter/nvim-treesitter-context")
 
     use("j-hui/fidget.nvim")
+
+    use ('mfussenegger/nvim-dap')
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
